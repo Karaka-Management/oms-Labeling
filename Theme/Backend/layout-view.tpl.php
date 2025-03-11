@@ -38,7 +38,6 @@ $imageType = 'image/png'; // Assuming JPEG format in this example
 // Generate the data URI for the inline image
 $inlineImage = 'data:' . $imageType . ';base64,' . $imageBase64;
 ?>
-
 <div class="portlet-body">
     <img height="100%" width="100%" src="Web/Backend/img/under_construction.svg">
 </div>

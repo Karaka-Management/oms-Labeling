@@ -35,7 +35,6 @@ $imageType = 'image/png'; // Assuming JPEG format in this example
 // Generate the data URI for the inline image
 $inlineImage = 'data:' . $imageType . ';base64,' . $imageBase64;
 ?>
-
 <div class="row">
     <div class="col-xs-12 col-md-6">
         <section class="portlet">
